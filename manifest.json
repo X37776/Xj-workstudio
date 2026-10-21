@@ -1,0 +1,13 @@
+
+{
+  "id": "/Xj-workstudio/",
+  "name": "XJ Work Studio",
+  "short_name": "XJ Studio",
+  "description": "XJ Work Studio is a creative graphic design studio offering social media posters, logo and branding design, event invitations, and tarpaulin layouts.",
+  "start_url": "/Xj-workstudio/",
+  "scope": "/Xj-workstudio/",
+  "display": "standalone",
+  "background_color": "#101010",
+  "theme_color": "#f02d36",
+  "orientation": "portrait"
+}
