@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="XJ Work Studio - Creative graphic design, branding, posters and invitations.">
+<title>XJ Work Studio | Creative Design</title>
+<style>
+:root{--red:#f02d36;--bg:#101010;--card:#1b1b1b;--muted:#b7b7b7}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:white;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+header{position:sticky;top:0;z-index:5;background:#111f;border-bottom:1px solid #333;backdrop-filter:blur(12px)}
+nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{font-size:20px;font-weight:900;letter-spacing:1px}
+.logo span{color:var(--red)}
+nav a{color:white;text-decoration:none;font-size:13px;margin-left:12px}
+nav a:hover{color:var(--red)}
+.hero{padding:85px 22px 75px;text-align:center;background:radial-gradient(ellipse at top,#451416 0%,#171010 42%,#101010 75%)}
+.tag{display:inline-block;border:1px solid #673034;border-radius:30px;padding:6px 13px;color:#ff7379;font-size:12px}
+h1{font-size:clamp(38px,8vw,68px);line-height:1.08;margin:22px auto;max-width:800px}
+h1 span{color:var(--red)}
+.hero p{max-width:550px;margin:0 auto 25px;color:#ccc}
+.btn{display:inline-block;padding:12px 19px;margin:5px;border-radius:8px;text-decoration:none;font-weight:bold;font-size:14px}
+.primary{background:var(--red);color:white}
+.secondary{border:1px solid #555;color:white}
+section{max-width:1050px;margin:auto;padding:58px 20px}
+.heading{text-align:center;margin-bottom:30px}
+.heading h2{font-size:30px;margin:0 0 7px}
+.heading p,.muted{color:var(--muted)}
+.accent{color:var(--red)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid #303030;border-radius:14px;padding:22px}
+.card h3{margin:10px 0}
+.icon{font-size:29px}
+.card p{color:var(--muted);font-size:14px}
+.work{min-height:145px;border-radius:12px;padding:20px;display:flex;flex-direction:column;justify-content:end;background:linear-gradient(145deg,#47171a,#202020 70%);border:1px solid #46282a}
+.work strong{font-size:20px}
+.work span{font-size:13px;color:#ddd}
+form{max-width:600px;margin:auto;background:var(--card);padding:22px;border-radius:14px;border:1px solid #333}
+label{display:block;font-size:13px;margin:13px 0 6px}
+input,select,textarea{width:100%;padding:13px;border-radius:8px;background:#101010;border:1px solid #444;color:white;font:inherit}
+textarea{min-height:100px;resize:vertical}
+button{width:100%;border:0;cursor:pointer;font:inherit;font-weight:bold}
+.contact{text-align:center;background:#191111;border-radius:16px;padding:30px 18px}
+footer{text-align:center;border-top:1px solid #333;padding:25px 15px;color:#aaa;font-size:12px}
+footer strong{color:white}
+@media(max-width:540px){nav{padding:12px}nav a{font-size:11px;margin-left:5px}.logo{font-size:16px}.hero{padding-top:65px}section{padding:45px 16px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo"><span>XJ</span> WORK STUDIO</div>
+<div>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Work</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home" style="max-width:none">
+<span class="tag">CREATIVE DESIGN STUDIO</span>
+<h1>Bring Your Ideas<br>To <span>Life.</span></h1>
+<p>Creative designs made to help your brand stand out. Let's turn your ideas into something memorable.</p>
+<a class="btn primary" href="#order">Start a Project ↗</a>
+<a class="btn secondary" href="#portfolio">Explore Our Work</a>
+</section>
+
+<section id="services">
+<div class="heading">
+<p class="accent">WHAT WE DO</p>
+<h2>Our Services</h2>
+<p>Creative solutions for your personal or business needs.</p>
+</div>
+<div class="grid">
+<div class="card"><div class="icon">✦</div><h3>Social Media Posters & Ads</h3><p>Eye-catching graphics for promotions, announcements and social media pages.</p></div>
+<div class="card"><div class="icon">◈</div><h3>Logo & Branding Design</h3><p>Distinctive logos and visual designs to give your brand its own identity.</p></div>
+<div class="card"><div class="icon">▧</div><h3>Invitations & Tarpaulin</h3><p>Layouts for celebrations, events, invitations and special occasions.</p></div>
+</div>
+</section>
+
+<section id="portfolio">
+<div class="heading">
+<p class="accent">SELECTED CREATIVITY</p>
+<h2>Our Portfolio</h2>
+<p>Some of the categories we can create for you.</p>
+</div>
+<div class="grid">
+<div class="work"><strong>Poster Design</strong><span>Promotions · Social Media</span></div>
+<div class="work"><strong>Brand Identity</strong><span>Logos · Business Branding</span></div>
+<div class="work"><strong>Event Layouts</strong><span>Invitations · Tarpaulins</span></div>
+</div>
+<p class="muted" style="text-align:center;font-size:13px">These are service previews. Add your actual design samples as you build your portfolio.</p>
+</section>
+
+<section id="order">
+<div class="heading">
+<p class="accent">LET'S WORK TOGETHER</p>
+<h2>Request a Design</h2>
+<p>Fill in the details to prepare your order request.</p>
+</div>
+<form id="orderForm">
+<label for="customer">Your name</label>
+<input id="customer" required placeholder="Enter your name">
+<label for="email">Your email (optional)</label>
+<input id="email" type="email" placeholder="you@example.com">
+<label for="service">Choose a service</label>
+<select id="service" required>
+<option value="">Select a service</option>
+<option>Social Media Posters & Ads</option>
+<option>Logo & Branding Design</option>
+<option>Event Invitations & Tarpaulin Layouts</option>
+<option>Other Graphic Design</option>
+</select>
+<label for="details">Project details</label>
+<textarea id="details" required placeholder="Describe your design, size, text and ideas..."></textarea>
+<button class="btn primary" type="submit">Prepare Email Request ↗</button>
+<p class="muted" style="font-size:12px">This opens your email app to send the request. It does not submit automatically.</p>
+</form>
+</section>
+
+<section id="contact">
+<div class="contact">
+<p class="accent">HAVE A PROJECT IN MIND?</p>
+<h2>Let's Create Something Great.</h2>
+<p class="muted">Message us to discuss your design ideas and project details.</p>
+<a class="btn primary" href="https://www.facebook.com/share/1JdTATk72D/" target="_blank" rel="noopener">Message on Facebook ↗</a>
+<p><a href="mailto:xjworkstudio@gmail.com" style="color:white">xjworkstudio@gmail.com</a></p>
+</div>
+</section>
+</main>
+
+<footer>
+<strong>XJ WORK STUDIO</strong>
+<p>Creative Design · Made with passion.</p>
+<p>© <span id="year"></span> XJ Work Studio. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('orderForm').addEventListener('submit',function(e){
+e.preventDefault();
+const name=document.getElementById('customer').value.trim();
+const email=document.getElementById('email').value.trim();
+const service=document.getElementById('service').value;
+const details=document.getElementById('details').value.trim();
+const subject=encodeURIComponent('Design Request - '+service);
+const body=encodeURIComponent('Hello XJ Work Studio!\n\nName: '+name+'\nCustomer email: '+(email||'Not provided')+'\nService: '+service+'\n\nProject details:\n'+details);
+window.location.href='mailto:xjworkstudio@gmail.com?subject='+subject+'&body='+body;
+});
+</script>
+</body>
+</html>
